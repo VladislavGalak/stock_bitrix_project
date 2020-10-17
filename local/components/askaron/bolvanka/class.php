@@ -1,7 +1,7 @@
 <?php
 
 
-class LangPicker extends CBitrixComponent
+class Bolvanka extends CBitrixComponent
 {
 	public function executeComponent()
 	{

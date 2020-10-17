@@ -1,1 +1,1 @@
-Copyright © 2020 UGREEN Group Limited
+Copyright © 2020

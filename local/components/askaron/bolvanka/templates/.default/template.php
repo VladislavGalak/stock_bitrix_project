@@ -10,8 +10,3 @@
 /** @var string $templateFolder */
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */?>
-<?if(strlen($arParams['TEXT'])>0):?>
-	<div class="header-notice">
-		<span><?=$arParams['TEXT']?></span>
-	</div>
-<?endif;?>

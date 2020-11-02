@@ -84,7 +84,7 @@ class WebpConverter
 
 	private static function checkNoPhotoInDB()
 	{
-		$dbRes = \Bitrix\Main\ElementTable()::Query
+		$dbRes = \Bitrix\Main\ElementTable()::query()
 			->setSelect(['ID'])
 			->where('CODE', self::NO_PHOTO_ELEMENT_CODE)
 			->setCacheTtl(7200000)
@@ -162,7 +162,7 @@ class WebpConverter
 				}
 			}
 		}
-		if (!empty($scene))
+		if (empty($scene))
 		{
 			if (isset($params['WIGHT']) && !isset($params['HEIGHT']))
 			{
